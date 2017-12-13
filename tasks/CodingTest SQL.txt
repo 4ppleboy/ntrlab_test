@@ -1,0 +1,30 @@
+ В бд есть две таблички:
+1. Customer
+Id	|Name 
+------------------
+1	|Ivanov
+2	|Petrov
+3	|Sidorov
+
+2. CustomerInfo
+Id	|Field		|Value
+----------------------------------------
+1	|FirstName	|Ivan
+1	|Phone		|+7-903-1234567
+2	|FirstName	|Peter
+2	|Phone		|+7-903-2222222
+3	|FirstName	|Sidor
+
+Таблички связаны по полю Id
+
+Требуется написать SQL-запрос, возвращающий следующий резултат
+
+ID	|FirstName	|Name	|Phone
+-----------------------------------------------
+1	|Ivan		|Ivanov	|+7-903-1234567
+2	|Peter		|Petrov	|+7-903-2222222
+3	|Sidor		|Sidorov| 
+
+
+
+
